@@ -45,8 +45,11 @@ This will be automatically populated the first time each experiment is run.
 
 
 ## Running examples
-
-Execute`python ./src/run_GNN.py --dataset Cora `to run the example. 
+For example to run for Cora with random splits:
+```
+cd src
+python run_GNN.py --dataset Cora 
+```
 
 
 ## Code Structure
