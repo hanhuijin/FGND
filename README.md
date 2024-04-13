@@ -47,10 +47,36 @@ This will be automatically populated the first time each experiment is run.
 ## Running examples
 For example to run for Cora with random splits:
 ```
-cd src
+cd src_cora
 python run_GNN.py --dataset Cora 
 ```
 
+For example to run for Citeseer with random splits:
+```
+cd src_citeseer
+python run_GNN.py --dataset Citeseer 
+```
+
+For example to run for Pubmed with random splits:
+```
+cd src_pubmed
+python run_GNN.py --dataset Pubmed 
+```
+For example to run for Computers with random splits:
+```
+cd src_computers
+python run_GNN.py --dataset Computers
+```
+For example to run for Photo with random splits:
+```
+cd src_photo
+python run_GNN.py --dataset Photo 
+```
+For example to run for ogbn-arxiv with random splits:
+```
+cd src_ogbnarxiv
+python run_GNN.py --dataset ogbn-arxiv 
+```
 
 ## Code Structure
     src/: Model definition and training code.
