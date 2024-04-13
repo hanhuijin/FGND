@@ -5,7 +5,7 @@
 ### Requirements
 Dependencies (with python >= 3.8):
 Main dependencies are
-torch==1.8.1
+torch==1.11
 torch-cluster==1.5.9
 torch-geometric==1.7.0
 torch-scatter==2.0.6
@@ -18,7 +18,7 @@ conda create --name FGND python=3.8
 conda activate FGND
 
 pip install ogb pykeops
-pip install torch==1.8.1
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install torchdiffeq -f https://pytorch-geometric.com/whl/torch-1.8.1+cu102.html
 
 pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.8.1+cu102.html
