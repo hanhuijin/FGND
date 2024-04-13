@@ -78,6 +78,7 @@ cd src_ogbnarxiv
 python run_GNN.py --dataset ogbn-arxiv 
 ```
 ## Running DropEdge
+```
 To run the experiments of IncepGCN on the datesets, you can reproduce by the scripts in /script/supervised/
 For the result of IncepGCN-DropEdge on the cora dataset: sh /script/supervised/cora_IncepGCN.sh
 For the result of IncepGCN on the cora dataset: sh /script/supervised/cora_IncepGCN_nodrop.sh
@@ -89,7 +90,7 @@ For the result of IncepGCN-DropEdge on the Photo dataset: sh /script/supervised/
 For the result of IncepGCN on the Photo dataset: sh /script/supervised/photo_IncepGCN_nodrop.sh
 For the result of IncepGCN-DropEdge on the Computers dataset: sh /script/supervised/computers_IncepGCN.sh
 For the result of IncepGCN on the Computers dataset: sh /script/supervised/computers_IncepGCN_nodrop.sh
-
+```
 ## Code Structure
     src/: Model definition and training code.
     
